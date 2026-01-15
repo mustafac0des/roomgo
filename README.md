@@ -1,15 +1,60 @@
-SCREENSHOTS
-![image](https://github.com/user-attachments/assets/a01e1971-ec01-461b-9035-888ba4208a60)
-![image](https://github.com/user-attachments/assets/3bff3741-5651-4844-bf9b-1ea8f69a78b2)
-![image](https://github.com/user-attachments/assets/3b411a37-0b96-4fc8-bbcf-0c18eeef9c13)
-![image](https://github.com/user-attachments/assets/a20a356a-c849-431d-bc3e-29a016927639)
-![image](https://github.com/user-attachments/assets/ed6e4f58-afd0-4252-870a-8d10e17d0a28)
-![image](https://github.com/user-attachments/assets/61c10a9d-a46b-4d37-983a-4a2ac38f779c)
-![image](https://github.com/user-attachments/assets/44f6ce75-f170-4977-afd9-530a0b7bf196)
-![image](https://github.com/user-attachments/assets/69c293c8-2562-458d-a069-091d8ad7f248)
-![image](https://github.com/user-attachments/assets/e4759711-c982-4086-bd9e-fcd37e632dea)
-![image](https://github.com/user-attachments/assets/3193c096-7235-4c69-bb03-7924ea84f49c)
-![image](https://github.com/user-attachments/assets/2d211084-e527-4be7-ba5d-cb57aaa00212)
-![image](https://github.com/user-attachments/assets/5aa9beb0-043e-49b4-a0a8-e7945e6637be)
-![image](https://github.com/user-attachments/assets/acd577dc-0c42-4743-ad99-38887862a789)
-![image](https://github.com/user-attachments/assets/d26e3a57-affa-44ee-99db-8bbe4af41063)
+# 🏨 RoomGo
+
+A modern room booking and hotel management system designed to make finding and listing rooms effortless and efficient.
+
+## ✨ Features
+
+- 🛏️ **Browse Rooms** - Explore available listings with detailed descriptions and photos
+- 📅 **Easy Booking** - Seamless status-based booking flow (View -> Order -> Book)
+- 🛒 **Order Management** - Keep track of your room orders and booking status
+- 👤 **Profiles** - Personalized dashboard for users and room hosts
+- 💬 **Live Chat** - Instant communication between guests and hosts
+- 🛡️ **Admin Panel** - Comprehensive dashboard for platform usage and user management
+- 🏠 **Host Tools** - Create and manage your own room listings easily
+- 🔒 **Secure** - Role-based access for Admins, Hosts, and Users
+
+## 🚀 Getting Started
+
+### Sign Up
+1. Open the application
+2. Click **Register**
+3. Choose your role and enter your details
+4. Welcome to RoomGo!
+
+### Book a Room
+1. Browse the **Available Rooms** section
+2. Select a room to view details
+3. Click **Order** to initiate a booking request
+4. Proceed to **Book** once confirmed
+
+## 🎯 Quick Tips
+
+- Use the **Chat** feature to ask hosts questions before booking
+- Check your **Profile** to view past bookings and current order status
+- **Hosts**: Keep your room availability updated for better visibility
+- **Admins**: Monitor user activity globally from the dashboard
+- Use the search filters to find the perfect room for your needs
+
+## ❓ Questions?
+
+- **Can I cancel a booking?** - Yes, check your booking details for cancellation options
+- **How do I become a host?** - You can register as a host or request an upgrade in your profile
+- **Is payment secure?** - We prioritize security for all transaction data
+- **Who can see my profile?** - Basic info is shared with hosts when you book; your data is private
+- **Need help?** - Contact our support team via the contact form
+
+## 💻 Tech Stack & Installation
+
+### Stack
+- **Framework**: Laravel 11
+- **Styling**: TailwindCSS
+- **Database**: SQLite / MySQL
+
+### Setup
+1. `git clone <repo>`
+2. `composer install` & `npm install`
+3. `cp .env.example .env` & `php artisan key:generate`
+4. `php artisan migrate --seed`
+5. `npm run dev` & `php artisan serve`
+
+## 📷 Screenshots
