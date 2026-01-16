@@ -168,13 +168,6 @@
         
 
         <div class="space-y-8">
-            <div class="bg-[#9A616D] rounded-2xl shadow-lg p-6 text-white relative overflow-hidden group hover:shadow-xl transition duration-300">
-                <div class="absolute -right-10 -top-10 h-40 w-40 bg-white/10 rounded-full blur-2xl group-hover:bg-white/20 transition duration-500"></div>
-                <h3 class="text-xl font-bold relative z-10">Premium Hosting</h3>
-                <p class="mt-2 text-white/90 text-sm relative z-10">Upgrade your room listings to get 3x more bookings and visibility.</p>
-                <button class="mt-6 bg-white text-[#9A616D] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-50 transition shadow-sm relative z-10">Learn More</button>
-            </div>
-            
              <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
                 <h3 class="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
                 <div class="grid grid-cols-2 gap-4">
