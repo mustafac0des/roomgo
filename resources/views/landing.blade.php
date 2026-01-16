@@ -19,7 +19,6 @@
                 <p class="mt-6 text-lg leading-8 text-gray-600">Experience comfort, luxury, and convenience. Book your next getaway with ease and enjoy premium amenities at affordable prices.</p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a href="{{ route('register') }}" class="rounded-xl bg-[#9A616D] px-6 py-3.5 text-sm font-semibold text-white shadow-xl hover:bg-[#854d58] transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9A616D]">Get started</a>
-                    <a href="#about" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
                 </div>
             </div>
         </div>

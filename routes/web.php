@@ -12,7 +12,7 @@ Auth::routes();
 
 Route::get('/landing', function () {
     return view('landing');
-});
+})->name('landing');
 
 Route::get('/', [RoomController::class, 'bookings'])->middleware('auth')->name('home');
 

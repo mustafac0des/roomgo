@@ -18,7 +18,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
-                        <a href="{{ url('/') }}" class="flex-shrink-0 flex items-center gap-2">
+                        <a href="{{ url('/landing') }}" class="flex-shrink-0 flex items-center gap-2">
                              <span class="text-2xl font-bold text-gray-900">Room<span class="text-[#9A616D]">GO</span></span>
                         </a>
                     </div>
@@ -27,7 +27,7 @@
                         @guest
                             <div class="flex gap-4">
                                 @if (Route::has('login'))
-                                    <a href="{{ route('login') }}" class="text-gray-600 hover:text-[#9A616D] font-medium transition">{{ __('Sign In') }}</a>
+                                    <a href="{{ route('login') }}" class="px-4 py-2 bg-[#9A616D] text-white rounded-lg hover:bg-[#854d58] transition shadow-md">{{ __('Sign In') }}</a>
                                 @endif
                                 @if (Route::has('register'))
                                     <a href="{{ route('register') }}" class="px-4 py-2 bg-[#9A616D] text-white rounded-lg hover:bg-[#854d58] transition shadow-md">{{ __('Sign Up') }}</a>
@@ -87,8 +87,6 @@
                     </div>
                 </aside>
             @endauth
-
-
             <main class="flex-1 w-full">
                 @yield('content')
             </main>
